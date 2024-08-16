@@ -21,3 +21,13 @@ All of the data used in this project comes from [Basketball Reference](https://w
 * The columns all shared the object datatype regardless of the information captured. I addressed this by reassigning datatypes as needed to include datetime, int, float, string, etc.
 
 ## Exploratory Trends
+
+Turnover distribution positively skewed
+![Turnover distribution positively skewed](image.png)
+The mode of this distriubtion reveals that a high volume of turnovers was uncommon.
+
+![Positive relationship between assists and feidl goal attempts](image-1.png)
+On the offensive end, the more likely a player was to attempt a field goal, the more likely they were to assist another player in scoring. This trend would suggest efficient scoring output in which the ball movement was spread across the team leading to more shots.
+
+![Positive relationship betwwen total rebounds and field goal attempts](image-2.png)
+On both the offesnive and defensive end, the more likely a player was to grab a rebound, the more likely they were to attempt a field goal. This indicates a trend in which players were effective on both ends of the floor, a highly sought after ability in the NBA. This is often referred to as being a 2-way player.
